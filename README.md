@@ -1,2 +1,3 @@
 # CS114.K21
-Name: Hồ Đặng Thanh Hồ
+Hồ Đặng Thanh Hồ | 18520760
+
