@@ -8,7 +8,7 @@ Do_An_ML
 <br>  |-feature.csv
 <br>  |-labels.csv
 <br>  |-code
-<br>      |-classifier.py
+<br>>>      |-classifier.py
 <br>      |-detect_face.py
 <br>      |-extract_feature.py
 <br>      |-facenet.py
