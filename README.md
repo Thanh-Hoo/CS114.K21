@@ -4,8 +4,8 @@ Hồ Đặng Thanh Hồ | 18520760
 ## Đồ án:
 Vì dung lượng giới hạn nên em để 2 model của facenet trong link này: https://drive.google.com/drive/u/0/folders/1VoN6RO8uoqhKeseI30OuNgqVAmV4zhYs
 Do_An_ML
-  |-Data_set
-  |-feature.csv
+>  |-Data_set
+>  |-feature.csv
   |-labels.csv
   |-code
       |-classifier.py
