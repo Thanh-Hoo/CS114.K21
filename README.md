@@ -37,5 +37,5 @@
 * Predicted results folder
 ```
     The folders will contain the JSON file that is the content of the image.
-For each image, there will be a JSON file  
+  For each image, there will be a JSON file  
 ```
