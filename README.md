@@ -1,20 +1,38 @@
-# CS114.K21
-Hồ Đặng Thanh Hồ | 18520760
+# AIC-2021
 
-## Đồ án:
-Vì dung lượng giới hạn nên em để 2 model của facenet trong link này: [Link](https://drive.google.com/drive/u/0/folders/1VoN6RO8uoqhKeseI30OuNgqVAmV4zhYs)
+# evaluate mAP
 
-## Dependencies:
+## 1. formant file:
 ```
-* tensorflow==1.15.0
-* scipy==1.1.0
-* scikit-learn
-* opencv-python
-* h5py
-* matplotlib
-* Pillow
-* requests
-* psutil
-* flask
-* pandas
+    File is included in json format 
 ```
+```python
+[
+    {"text": "ELIS NGOC", 
+        "score": 0.8800175189971924, 
+        "polygon": [374, 312, 960, 312, 960, 536, 374, 536],
+        "BBox": [391, 317, 546, 207]}, 
+    {"text": "2aio facebok", 
+        "score": 0.6789452433586121, 
+        "polygon": [875, 522, 1093, 522, 1093, 559, 875, 559], 
+        "BBox": [870, 523, 224, 31]}, 
+    {"text": "323 Le Van Sy, P1, &.Tan Binh", 
+        "score": 0.6625133156776428, 
+        "polygon": [206, 538, 810, 538, 810, 594, 206, 594], 
+        "BBox": [200, 537, 621, 49]},
+    {"text": "0898 408 916", 
+        "score": 0.5985706448554993, 
+        "polygon": [876, 552, 1095, 552, 1095, 593, 876, 593], 
+        "BBox": [873, 554, 223, 33]},
+    {"text": "demo", 
+        "score": 0.5985706448554993, 
+        "polygon": [304, 588, 564, 588, 564, 614, 304, 614], 
+        "BBox": [873, 554, 223, 33]}
+]
+
+```
+
+## 2. Setup folder
+* Ground truth folder
+* Predicted results folder
+
